@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+echo "+++ This is the repo post-checkout hook"
+echo ""
+echo "I can do things after the checkout has occurred, defined at the repo level here"
